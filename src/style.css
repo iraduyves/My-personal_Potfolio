@@ -162,6 +162,21 @@ nav .container ul li a.active {
     background: var(--color-primary);
     color: var(--color-white);
 }
+nav .container input {
+    &~.menu-bar #menu-btn ,
+    &~.menu-bar #close-btn {
+        height: 0;
+        width: 0;
+        position: relative;
+        opacity: 0;
+    }
+}
+nav .container .nav-input{
+    height: 0;
+        width: 0;
+        position: relative;
+        opacity: 0;
+}
 
 /*==================landing=============*/
 section.landing {
