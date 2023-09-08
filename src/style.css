@@ -1048,10 +1048,7 @@ footer .copyright {
         color: var(--color-black);
     }
 
-    nav button #close-btn {
-        /* display: none; */
-
-    }
+   
 
 
 
@@ -1248,11 +1245,6 @@ footer .copyright {
         cursor: pointer;
         background: transparent;
         color: var(--color-black);
-    }
-
-    nav button #close-btn {
-        /* display: none; */
-
     }
 
 
