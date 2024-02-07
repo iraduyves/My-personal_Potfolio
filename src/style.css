@@ -3,8 +3,8 @@
     --color-light: #f4f4f4;
     --color-dark: #525252;
     --color-black: #141415;
-    --color-primary: #f24e1e;
-    --color-primary-light: hsl(14, 89%, 53%, 12%);
+    --color-primary: #091228;
+    --color-primary-light: hsla(200, 89%, 53%, 0.12);
     --color-sucess: #29f5a6;
     --color-warning: #ffce31;
 
@@ -172,10 +172,11 @@ nav .container input {
     }
 }
 nav .container .nav-input{
-    height: 0;
+        height: 0;
         width: 0;
         position: relative;
         opacity: 0;
+
 }
 
 /*==================landing=============*/
@@ -429,7 +430,7 @@ section.skills .skill .item .progress-bar .progress {
 }
 
 section.skills .skill .item:nth-child(2) .progress-bar .progress {
-    width: 88%;
+    width: 87%;
 }
 
 section.skills .skill .item:nth-child(3) .progress-bar .progress {
